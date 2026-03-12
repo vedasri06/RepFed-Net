@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[2]:
 
 
 import os
@@ -48,13 +45,13 @@ for filename in os.listdir(image_dir):
 print("Augmentation completed successfully!")
 
 
-# In[ ]:
+
 
 
 # vertical flip
 
 
-# In[3]:
+
 
 
 import os
@@ -101,13 +98,13 @@ for filename in os.listdir(image_dir):
 print("Vertical flip augmentation completed successfully!")
 
 
-# In[ ]:
+
 
 
 #random Roatation 
 
 
-# In[4]:
+
 
 
 import os
@@ -158,13 +155,13 @@ for filename in os.listdir(image_dir):
 print("Random rotation augmentation completed successfully!")
 
 
-# In[ ]:
+
 
 
 #Shear Transformation
 
 
-# In[5]:
+
 
 
 import os
@@ -233,8 +230,6 @@ for filename in os.listdir(image_dir):
 
 print("Shear augmentation completed successfully!")
 
-
-# In[ ]:
 
 
 
